@@ -9,3 +9,7 @@ def index(request):
 
 def about(request):
     return render(request, 'main/about-us.html')
+
+
+def create(request):
+    return render(request, 'main/create.html')
